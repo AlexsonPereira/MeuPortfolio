@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
 
    :root{
-      --primary-color: #FFC700;
+      --primary-color: #FFE600;
       --color-black : #000000;
       --color-white : #FFFFFF;
       --color-gray : #D9D9D9;
@@ -40,6 +40,7 @@ export const GlobalStyle = createGlobalStyle`
       display: block;
    }
    body {
+      background-color: var(--color-black);
       line-height: 1;
    }
    ol, ul {
