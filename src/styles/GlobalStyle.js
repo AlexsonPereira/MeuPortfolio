@@ -40,8 +40,8 @@ export const GlobalStyle = createGlobalStyle`
       display: block;
    }
    body {
-      background-color: var(--color-black);
-      line-height: 1;
+      background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg");
+      background-size: cover;
    }
    ol, ul {
       list-style: none;
@@ -57,6 +57,11 @@ export const GlobalStyle = createGlobalStyle`
    table {
       border-collapse: collapse;
       border-spacing: 0;
+   }
+
+   .Wave {
+      position: absolute;
+      bottom: 0;
    }
 
 

@@ -17,6 +17,12 @@ export const HeaderStyle = styled.div`
       > h2 {
         font-size: 1.5rem;
         font-weight: bold;
+        cursor: pointer;
+        transition: 0.5s;
+
+        :hover {
+          opacity: 0.5;
+        }
       }
 
       > div {
@@ -32,20 +38,24 @@ export const HeaderStyle = styled.div`
 `
 
 export const MenuNav = styled.div`
-  background-color: var(--primary-color);
+  background-color: var(--color-black);
+  border-left: 4px solid var(--primary-color);
+  border-right: 4px solid var(--primary-color);
+  border-bottom: 4px solid var(--primary-color);
   height: 70px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
   > span {
+    color: var(--primary-color);
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 
     &:hover {
-      transition: 0.5s;
-      text-decoration: underline;
+      scale: 1.2;
     }
   }
 `
