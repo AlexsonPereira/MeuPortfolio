@@ -10,13 +10,13 @@ export const HomePage = () => {
       <Container>
         <MainContent>
           <div></div>
-          <div><p>Prazer, meu nome é <span>Alexson Pereira Oliveira</span> tenho 18 anos e sou Desenvolvedor Front End Junior</p></div>
+          <div><p>Prazer, meu nome é <span>Alexson Pereira Oliveira</span> tenho 18 anos e sou Desenvolvedor Front End</p></div>
         </MainContent>
       </Container>
       <Wave className='Wave' fill='#FFE600'
         paused={false}
         options={{
-          height: 100,
+          height : 100 ,
           amplitude: 100,
           speed: 0.15,
           points: 3
