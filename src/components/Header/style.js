@@ -38,10 +38,11 @@ export const HeaderStyle = styled.div`
 `
 
 export const MenuNav = styled.div`
-  background-color: var(--color-black);
-  border-left: 4px solid var(--primary-color);
-  border-right: 4px solid var(--primary-color);
-  border-bottom: 4px solid var(--primary-color);
+  background-color: transparent;
+  /* border-left: 4px solid var(--primary-color);
+  border-right: 4px solid var(--primary-color); */
+  border-bottom: 2px solid var(--primary-color);
+  border-radius: 0 0 8px 8px;
   height: 70px;
   display: flex;
   justify-content: space-around;
