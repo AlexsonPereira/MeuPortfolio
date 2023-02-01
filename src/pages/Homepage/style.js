@@ -24,7 +24,7 @@ export const MainContent = styled.div`
       font-weight: bold;
 
       > span {
-        color: var(--primary-color);
+        color: var(--color-white);
       }
     }
   }

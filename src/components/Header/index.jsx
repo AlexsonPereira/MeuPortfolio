@@ -4,6 +4,7 @@ import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs"
 import { useNavigate } from 'react-router'
 
 export const HeaderPage = () => {
+  const [page, setPage] = ("Home")
   const navigate = useNavigate() 
   return (
     <>
