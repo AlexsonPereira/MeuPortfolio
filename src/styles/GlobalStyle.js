@@ -64,5 +64,17 @@ export const GlobalStyle = createGlobalStyle`
       bottom: 0;
    }
 
+   .carousel-root{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   }
+
+
+   .thumbs{
+   display: flex;
+   justify-content: center;
+   }
 
 `
