@@ -58,5 +58,9 @@ export const MenuNav = styled.div`
     &:hover {
       scale: 1.2;
     }
+
+    @media (max-width: 450px) {
+      font-size: 1.5rem;
+    }
   }
 `

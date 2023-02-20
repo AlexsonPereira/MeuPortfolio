@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 
 
 export const HomePage = () => {
+  // window.addEventListener('resize', ()=>{console.log(window.screen.height) });
   return (
     <>
       <HeaderPage/>

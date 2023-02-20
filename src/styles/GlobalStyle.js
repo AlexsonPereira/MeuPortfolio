@@ -1,5 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 
+let height = 0
+window.addEventListener('resize', () => {
+  height = window.screen.height
+  console.log(height)
+})
+
 export const GlobalStyle = createGlobalStyle`
 
    :root{
