@@ -68,6 +68,11 @@ export const GlobalStyle = createGlobalStyle`
    .Wave {
       position: absolute;
       bottom: 0;
+      @media (max-height: 768px) {
+      opacity: 0;
+      z-index: -1000;
+  }
+      
    }
 
    .carousel-root{
